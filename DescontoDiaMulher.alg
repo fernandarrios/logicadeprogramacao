@@ -1,3 +1,7 @@
+#23) Numa promoÃ§Ã£o exclusiva para o Dia da Mulher, uma loja quer dar descontos paratodos, mas especialmente para mulheres.
+#FaÃ§a um programa que leia nome, sexo e o valor das compras do cliente e calcule o preÃ§o com desconto. Sabendo que:-Homens ganham 5% de desconto-Mulheres ganham 13% de desconto
+
+
 algoritmo "semnome"
 var
     nome, G: caractere
@@ -13,19 +17,19 @@ escreva("Digite seu nome: ")
   leia(nome)
 escreva("Insira o total da sua compra: ")
   leia(compra)
-escreva("Qual gênero você se identifica? Digite F para Feminino e M para Masculino: ")
+escreva("Qual gÃªnero vocÃª se identifica? Digite F para Feminino e M para Masculino: ")
   leia(G)
 se G =("F") entao
    desc <- compra * 0.15
    compraDesc <- compra - desc
-   escreval("Parabéns pelo seu dia!")
-   escreval("Em homenagem, hoje você ganhará 15% de desconto. O total da sua compra foi R$",compraDesc)
+   escreval("ParabÃ©ns pelo seu dia!")
+   escreval("Em homenagem, hoje vocÃª ganharÃ¡ 15% de desconto. O total da sua compra foi R$",compraDesc)
     escreval("---------------------------------------------------------------------------------------------------------------------")
 fimse
 se G =("M") entao
    desc <- compra * 0.05
    compraDesc <- compra - desc
-   escreval("Em comemoração aos dias das mulheres, hoje você ganhará 5% de desconto.")
+   escreval("Em comemoraÃ§Ã£o aos dias das mulheres, hoje vocÃª ganharÃ¡ 5% de desconto.")
    escreval(" O total da sua compra foi R$",compraDesc)
    escreval("---------------------------------------------------------------------------------------------------------------------")
 fimse

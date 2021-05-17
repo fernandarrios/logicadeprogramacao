@@ -3,4 +3,4 @@ Exercícios realizados durante o curso gratuito de Lógica de Programação do C
 
 A linguagem usada é o portugol e o programa é o Visulag.
 
-Curso em andamento.
+*Curso em andamento*.
